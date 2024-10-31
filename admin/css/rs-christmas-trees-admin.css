@@ -1,0 +1,225 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ss_left_col .m0{
+    margin: 0;
+ }
+ .ss_left_col .d-block{
+    display: block !important;
+ }
+ .ss_left_col .form-table th{
+    padding: 0px;
+    width: 0px;
+    display: none;
+}
+.ss_left_col .form-table td{
+    padding: 0;
+    border-bottom: 1px solid #eae9e9;
+}
+.ss_left_col .form-table td input[type=text],.ss_left_col .form-table td select,.ss_left_col input[type=checkbox],.ss_left_col input[type=radio]{
+    border: 1px solid #226c5e52;
+}
+
+.ss_left_col .form-table td p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.rs_christmas_trees_label_list td > div{
+    display: flex;
+    align-items: baseline;
+}
+.ss_left_col .submit input{
+    background: #226c5e;
+    color: #fff;
+    border-color: #226c5e;
+    padding: 8px 20px;
+    height: auto;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0;
+    border-bottom: 4px solid #bc1d2b;
+    box-shadow: none;
+    margin-top: 20px;
+}
+.ss_left_col .form-table td
+.popup-display{
+    width: 50%;
+    display: inline-block;
+    margin: 15px auto;
+} 
+.rs_christmas_trees-overflow{
+    overflow: hidden;
+    display: none;
+}
+.rs_christmas_trees-bottom-overflow{
+    overflow: hidden;
+    display: none;
+}
+.ss_left_col .c-label{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    padding: 10px 0px;
+    background: #fff; 
+    margin-right: 1%;
+}
+.ss_left_col .c-label h3{
+    padding-left: 10px;
+}
+.rs_christmas_trees_label_value{
+    width: 69%;
+    display: inline-block;
+    float: left; 
+}
+.ss_left_col .w-value{
+    width: 100%;
+}
+ 
+ 
+.rs_christmas_trees_label_value img{
+    width: 100%;
+    margin:25px auto;
+}
+.rs_christmas_trees_label_value ul li{
+    width: 50%;
+    display: inline-block;
+}
+.ss_left_col .pop-image{
+    width: 30%!important;
+}
+.ss_left_col .c-label h3{
+    margin: 0px;
+    font-size: 16px;
+}
+.ss_left_col .fall-label{
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+}
+.ss_left_col .fall-input{
+    width: 30%;
+}
+#rs_christmas_trees_hide_click_activation{
+    margin-top: 6px;
+    margin-left: 3px;
+}
+.ss_left_col label {
+    padding: 5px;
+}
+.ss_left_col input[type="text"],
+.ss_left_col input[type="checkbox"],
+.ss_left_col select {
+    color: #3e3e3e;
+    border-radius: 3px;
+   
+}
+/*ss salim*/
+.nav-tab-wrapper{
+   border-color: #226c5e !important;
+}
+.nav-tab-wrapper a{ 
+    margin-left: 1px;
+    background: #226c5e;
+    color: #fff;
+    border-color: #226c5e;
+    border-bottom: 3px solid #226c5e;
+}
+.nav-tab-wrapper a:first-child{
+    margin-left:0;
+}
+
+.nav-tab-wrapper a:hover, .nav-tab-wrapper a.nav-tab-active{
+   background: #bc1d2b;
+   color: #fff;
+   border-color: #bc1d2b;
+   border-bottom: 3px solid #226c5e;
+}
+.ss_col{
+    width: 100%;
+    overflow: hidden;
+
+}
+.ss_left_col{
+    float: left;
+    width: 73%;
+    margin-right: 2%;
+}
+.ss_right_col{
+    float: left;
+    width: 25%;
+    background: #fff; 
+    color:#333;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+}
+.ss_right_content{
+    padding: 30px;
+}
+.logo_top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo_top img{
+    max-width: 100%;
+}
+.c-label.update_level {
+    min-width: 100%;
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value p label, #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value p label{
+    position: relative;
+    border: 1px solid #327b6e;
+    display: block;
+    margin-bottom: 10px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value p label.highlight, #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value p label.highlight{
+    background: #327b6e;
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value p label input[type="radio"], #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value p label input[type="radio"]{
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value p label span, #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value p label span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background:#327b6e ;
+    padding: 2px 6px;
+    color: #ffffff;
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value img, #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value img{
+    margin: 5px auto 25px auto;
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value, #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 10px;
+}
+#rs_christmas_trees_display_set_top .rs_christmas_trees_label_value p, #rs_christmas_trees_display_set_bottom .rs_christmas_trees_label_value p{
+   flex:0 0 49%;
+   max-width: 49%;
+   margin-bottom: 15px;
+}
+ 
+ 
+.text-center{
+    text-align: center;
+}
+ 
